@@ -1,0 +1,21 @@
+[project]
+name = "privacy-blur"
+version = "0.1.0"
+description = "Blur license plates and/or faces in videos using YOLO + OpenCV."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "MengWoods" }]
+dependencies = [
+  "ultralytics>=8.2.0",
+  "opencv-python>=4.9.0",
+  "numpy>=1.26",
+]
+
+[project.scripts]
+privacy-blur = "privacy_blur.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
