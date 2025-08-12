@@ -11,7 +11,7 @@ Uses Ultralytics YOLO for detection and OpenCV for blurring.
 - Minimal deps, no manual plate weights required
 
 A sample test video showing blurred faces and license plates can be viewed here:
-[![Privacy Blur Demo](https://youtu.be/-6z75e1SBrk/0.jpg)](https://youtu.be/-6z75e1SBrk)
+[Privacy Blur Demo YouTube](https://youtu.be/-6z75e1SBrk)
 
 
 ## Models
