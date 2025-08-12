@@ -13,6 +13,8 @@ Uses Ultralytics YOLO for detection and OpenCV for blurring.
 A sample test video showing blurred faces and license plates can be viewed here:
 [Privacy Blur Demo YouTube](https://youtu.be/-6z75e1SBrk)
 
+![alt text](image.png)
+
 
 ## Models
 
