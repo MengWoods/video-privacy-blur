@@ -11,7 +11,7 @@ Uses Ultralytics YOLO for detection and OpenCV for blurring.
 - Minimal deps, no manual plate weights required
 
 A sample test video showing blurred faces and license plates can be viewed here:
-[Privacy Blur Demo YouTube](https://youtu.be/-6z75e1SBrk)
+[Privacy Blur Demo YouTube](https://youtu.be/2lWWn4ubX78)
 
 ![alt text](image.png)
 
@@ -70,7 +70,6 @@ privacy-blur --input street.mp4 --no-blur-plates --method pixelate --device cuda
 # Use YOLO face model instead of Haar (better on varied angles)
 privacy-blur --input crowd.mp4 --face-detector yolo --face-yolo-weights models/yolov8n-face.pt
 
-```
 
 ### CLI Options
 

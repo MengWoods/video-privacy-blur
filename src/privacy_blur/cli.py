@@ -20,7 +20,7 @@ def main():
     ap.add_argument("--face-yolo-weights", default="yolov8n-face.pt", help="YOLO face weights (file or hub id)")
     ap.add_argument("--method", choices=["gaussian","pixelate"], default="gaussian", help="blur method")
     ap.add_argument("--plate-weights", default="models/license_plate_detector.pt", help="Path to YOLO license plate model (.pt)")
-    ap.add_argument("--blur-strength", type=float, default=4.0, help="Lower = stronger blur, higher = weaker blur (divisor for bbox size)")
+    ap.add_argument("--blur-strength", type=float, default=3.0, help="Lower = stronger blur, higher = weaker blur (divisor for bbox size)")
     args = ap.parse_args()
 
     device = choose_device(args.device)
